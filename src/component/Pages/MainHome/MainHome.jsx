@@ -5,7 +5,7 @@ import { FaArrowDownLong, FaSquareFull } from "react-icons/fa6";
 const MainHome = () => {
     return (
         <div id='home' className='relative'>
-            <div className='min-h-screen flex'>
+            <div className='md:min-h-screen flex'>
                 <div className='bg-color-first h-screen w-1/2'></div>
                 <div className='bg-color-second h-screen w-1/2'></div>
             </div>
