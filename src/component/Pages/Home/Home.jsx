@@ -1,4 +1,3 @@
-import Navbar from "../Navbar/Navbar";
 import Resume from '../Resume/Resume'
 import About from '../About/About'
 import Services from '../Services/Services'
@@ -9,7 +8,6 @@ import MainHome from '../MainHome/MainHome'
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <MainHome></MainHome>
             <About></About>
             <Resume></Resume>
