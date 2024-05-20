@@ -1,21 +1,11 @@
 import { MdOutlineCastForEducation } from "react-icons/md";
-import Skills from "./Skills";
 
-const Resume = () => {
+const Skills = () => {
     return (
-        <div id="resume" className="my-20 flex mx-5 md:mx-0">
-            <div className="w-2/5 hidden md:block">
-                <div className="flex justify-center items-center left-0 top-32 sticky">
-                    <ul className="font-bold text-xl space-y-4">
-                        <li className="cursor-pointer hover:underline"><a href="#education">Education</a></li>
-                        <li className="cursor-pointer hover:underline">Experience</li>
-                        <li className="cursor-pointer hover:underline"><a href="#skill">Skills</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="education" className="md:w-3/5">
+        <div id="skill">
+            <div className="md:w-3/5">
                 <div className="">
-                    <h1 className="text-3xl font-extrabold common-text-color">Education</h1>
+                    <h1 className="text-3xl font-extrabold common-text-color">Skills</h1>
                     <div className="md:mt-10 mt-8 flex">
                         <MdOutlineCastForEducation className="common-text-color text-7xl -mt-3" />
                         <div className="ml-5">
@@ -26,10 +16,10 @@ const Resume = () => {
                     </div>
                 </div>
                 <hr className="md:my-10 my-7 md:mr-10" />
-                <div><Skills></Skills></div>
+                <div>second</div>
             </div>
         </div>
     );
 };
 
-export default Resume;
+export default Skills;
