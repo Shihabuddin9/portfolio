@@ -9,3 +9,7 @@
 .common-bg-color {
     background-color: #3E64FF;
 }
+
+html {
+    scroll-behavior: smooth;
+}

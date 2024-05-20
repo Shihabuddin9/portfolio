@@ -4,7 +4,7 @@ import { FaArrowDownLong, FaSquareFull } from "react-icons/fa6";
 
 const MainHome = () => {
     return (
-        <div className='relative'>
+        <div id='home' className='relative'>
             <div className='min-h-screen flex'>
                 <div className='bg-color-first h-screen w-1/2'></div>
                 <div className='bg-color-second h-screen w-1/2'></div>
@@ -13,7 +13,7 @@ const MainHome = () => {
                 <Navbar></Navbar>
             </div>
             <div className='flex justify-center items-center'>
-                <div className='absolute lg:top-1/3 md:top-32 top-20 text-center'>
+                <div className='absolute xl:top-1/3 lg:top-28 md:top-20 top-28 text-center'>
                     <>
                         <h4 className='font-bold letter-space common-text-color'>HEY! I AM</h4>
                         <h4 className='font-bold md:text-7xl text-5xl name-letter-space my-3'>Shihab Uddin</h4>
