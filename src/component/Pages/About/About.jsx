@@ -1,7 +1,9 @@
 import image from '../../../assets/shihab-img/shihab-img.png'
+import useTitle from '../../../hooks/UseTitle';
 import './About.css'
 
 const About = () => {
+    useTitle('About')
     return (
         <div id='about'>
             <div className='min-h-screen md:flex'>

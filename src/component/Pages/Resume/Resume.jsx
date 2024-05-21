@@ -1,19 +1,24 @@
 import { MdOutlineCastForEducation } from "react-icons/md";
 import Skills from "./Skills";
+import useTitle from "../../../hooks/UseTitle";
+import Experience from "./Experience";
 
 const Resume = () => {
+    useTitle('Resume')
     return (
-        <div id="resume" className="my-20 flex mx-5 md:mx-0">
-            <div className="w-2/5 hidden md:block">
+        <div id="resume" className=" my-20 mx-5 md:mx-0 md:grid lg:grid-cols-6 md:grid-cols-4 gap-5">
+            {/* w-2/5 */}
+            <div className=" hidden md:block xl:col-span-2 lg:col-span-1 md:col-span-1">
                 <div className="flex justify-center items-center left-0 top-32 sticky">
                     <ul className="font-bold text-xl space-y-4">
-                        <li className="cursor-pointer hover:underline"><a href="#education">Education</a></li>
-                        <li className="cursor-pointer hover:underline">Experience</li>
-                        <li className="cursor-pointer hover:underline"><a href="#skill">Skills</a></li>
+                        <li className="cursor-pointer hover:underline hover:text-customBlue"><a href="#education">Education</a></li>
+                        <li className="cursor-pointer hover:underline hover:text-customBlue"><a href="#experience">Experience</a></li>
+                        <li className="cursor-pointer hover:underline hover:text-customBlue"><a href="#skill">Skills</a></li>
                     </ul>
                 </div>
             </div>
-            <div id="education" className="md:w-3/5">
+            {/* w-3/5 */}
+            <div id="education" className="xl:col-span-4 lg:col-span-5 md:col-span-3">
                 <div className="">
                     <h1 className="text-3xl font-extrabold common-text-color">Education</h1>
                     <div className="md:mt-10 mt-8 flex">
@@ -26,6 +31,10 @@ const Resume = () => {
                     </div>
                 </div>
                 <hr className="md:my-10 my-7 md:mr-10" />
+
+                <div><Experience></Experience></div>
+                <hr className="md:my-10 my-7 md:mr-10" />
+
                 <div><Skills></Skills></div>
             </div>
         </div>
