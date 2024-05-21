@@ -7,15 +7,20 @@ const MainHome = () => {
     useTitle('Home')
     return (
         <div id='home' className='relative'>
-            <div className='md:min-h-screen flex'>
+            <div className='flex h-screen'>
+                <div className='bg-color-first w-1/2'></div>
+                <div className='bg-color-second w-1/2'></div>
+            </div>
+            {/* <div className='md:min-h-screen flex'>
                 <div className='bg-color-first md:h-screen h-[410px] w-1/2'></div>
                 <div className='bg-color-second md:h-screen h-[410px] w-1/2'></div>
-            </div>
+            </div> */}
             <div className='absolute top-0 w-full'>
                 <Navbar></Navbar>
             </div>
             <div className='flex justify-center items-center'>
-                <div className='absolute xl:top-1/3 lg:top-28 md:top-20 top-28 text-center'>
+                {/* <div className='absolute xl:top-1/3 lg:top-28 md:top-20 top-28 text-center'> */}
+                <div className='absolute top-1/3 text-center'>
                     <>
                         <h4 className='font-bold letter-space common-text-color'>HEY! I AM</h4>
                         <h4 className='font-bold md:text-7xl text-5xl name-letter-space my-3'>Shihab Uddin</h4>

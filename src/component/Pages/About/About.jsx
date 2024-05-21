@@ -6,13 +6,13 @@ const About = () => {
     useTitle('About')
     return (
         <div id='about'>
-            <div className='min-h-screen md:flex'>
-                <div className='h-screen md:w-1/2 relative'>
-                    <img className='bg-color absolute right-0' src={image} alt="" />
+            <div className='md:flex'>
+                <div className='md:w-1/2 w-full md:relative'>
+                    <img className='bg-color md:absolute md:right-0' src={image} alt="" />
                 </div>
 
-                <div className=' md:h-screen md:w-1/2 mx-5 md:mx-0'>
-                    <div className='xl:mt-10 lg:mt-6 md:mt-2 -mt-20 md:ml-12'>
+                <div className='md:w-1/2 mx-5 md:mx-0'>
+                    <div className='xl:mt-10 lg:mt-6 md:mt-3 mt-6  md:ml-12'>
                         <h2 className='lg:text-3xl md:text-xl font-extrabold'>About Me</h2>
                         <p className='lg:my-6 md:my-3 my-2 text-gray-500 lg:font-semibold md:font-medium md:text-sm lg:text-base'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                         <div className='flex justify-start'>

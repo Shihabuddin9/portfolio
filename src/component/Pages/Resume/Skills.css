@@ -42,11 +42,22 @@
     stroke-width: 3px;
     stroke: #3E64FF;
     stroke-linecap: round;
-    stroke-dasharray: 326.56;
     stroke-dashoffset: 60;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
     animation: big 1.5s ease-in-out;
+}
+
+.circle-big .progress1 {
+    stroke-dasharray: 317.56;
+}
+
+.circle-big .progress2 {
+    stroke-dasharray: 297.56;
+}
+
+.circle-big .progress3 {
+    stroke-dasharray: 326.56;
 }
 
 .circle-big .text {
