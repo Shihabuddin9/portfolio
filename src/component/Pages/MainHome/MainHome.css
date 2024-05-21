@@ -43,10 +43,21 @@
     .left-arrow {
         left: 9.60rem;
     }
+
+    .text-5xl-custom {
+        font-size: 48px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .left-arrow {
-        left: 9.26rem;
+        left: 8.26rem;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    .text-5xl-custom {
+        font-size: 40px;
     }
 }

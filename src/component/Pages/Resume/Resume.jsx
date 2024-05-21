@@ -6,7 +6,7 @@ import Experience from "./Experience";
 const Resume = () => {
     useTitle('Resume')
     return (
-        <div id="resume" className=" my-20 mx-5 md:mx-0 md:grid lg:grid-cols-6 md:grid-cols-4 gap-5">
+        <div id="resume" className="xl:my-40 lg:my-36 md:my-32 my-24  mx-5 md:mx-0 md:grid lg:grid-cols-6 md:grid-cols-4 gap-5">
             {/* w-2/5 */}
             <div className=" hidden md:block xl:col-span-2 lg:col-span-1 md:col-span-1">
                 <div className="flex justify-center items-center left-0 top-32 sticky">
@@ -32,10 +32,10 @@ const Resume = () => {
                 </div>
                 <hr className="md:my-10 my-7 md:mr-10" />
 
-                <div><Experience></Experience></div>
+                <div className="xl:mt-20 mt-16"><Experience></Experience></div>
                 <hr className="md:my-10 my-7 md:mr-10" />
 
-                <div><Skills></Skills></div>
+                <div className="xl:mt-20 mt-16"><Skills></Skills></div>
             </div>
         </div>
     );

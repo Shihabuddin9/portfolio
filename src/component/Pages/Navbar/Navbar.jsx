@@ -29,7 +29,7 @@ const Navbar = () => {
                         </div>
 
                         <div className={`fixed left-0 top-0 z-30 flex h-screen w-full bg-white shadow-lg transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-                            <ul onClick={toggleMenu} tabIndex={0} className="menu menu-sm dropdown-content mt-10 ml-5 z-[1] p-2 space-y-5">
+                            <ul onClick={toggleMenu} tabIndex={0} className="menu menu-sm dropdown-content mt-10 z-[1] p-2 space-y-5 ml-28">
                                 {links}
                             </ul>
                             <button onClick={toggleMenu} className="top-5 text-3xl absolute right-10">X</button>

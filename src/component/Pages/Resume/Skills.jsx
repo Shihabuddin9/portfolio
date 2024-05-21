@@ -2,13 +2,14 @@ import './Skills.css'
 
 const Skills = () => {
     return (
-        <div id="skill">
+        <div id="skill" className=''>
             <div className="">
                 <h1 className="text-3xl font-extrabold common-text-color">Skills</h1>
-                <div className='flex md:flex-none justify-center md:justify-start items-center'>
+                {/* Radial progress */}
+                <div className='md:flex md:justify-start md:items-center'>
                     <div className='md:mt-10 mt-8 md:grid lg:grid-cols-3 md:grid-cols-2 gap-5'>
 
-                        <div className='w-64 h-80 bg-base-100 shadow-custom rounded '>
+                        <div className='md:w-64 h-80 bg-base-100 shadow-custom rounded '>
                             <h3 className='text-center pt-5 font-extrabold'>React js</h3>
                             <div className="frame">
                                 <div>
@@ -36,7 +37,7 @@ const Skills = () => {
                             </div>
                         </div>
 
-                        <div className='w-64 h-80 bg-base-100 shadow-custom rounded my-5 md:my-0'>
+                        <div className='md:w-64 h-80 bg-base-100 shadow-custom rounded my-5 md:my-0'>
                             <h3 className='text-center pt-5 font-extrabold'>JavaScript</h3>
                             <div className="frame">
                                 <div>
@@ -64,7 +65,7 @@ const Skills = () => {
                             </div>
                         </div>
 
-                        <div className='w-64 h-80 bg-base-100 shadow-custom rounded'>
+                        <div className='md:w-64 h-80 bg-base-100 shadow-custom rounded'>
                             <h3 className='text-center pt-5 font-extrabold'>TypeScript</h3>
                             <div className="frame">
                                 <div>
@@ -93,9 +94,39 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+                {/* progress */}
+                <div className='mt-16 lg:w-4/5 md:mr-9 lg:mr-0'>
+                    <div className='md:grid grid-cols-2 gap-5 space-y-6 md:space-y-0'>
+                        <div className="task-progress">
+                            <p><span className='font-medium text-gray-900 text-lg'>HTML5</span>
+                                <span className='font-medium text-gray-900 text-lg'>90%</span>
+                            </p>
+                            <progress className="progress progress1" max="100" value="90"></progress>
+                        </div>
+                        <div className="task-progress">
+                            <p><span className='font-medium text-gray-900 text-lg'>CSS3</span>
+                                <span className='font-medium text-gray-900 text-lg'>95%</span>
+                            </p>
+                            <progress className="progress progress1" max="100" value="95"></progress>
+                        </div>
+                        <div className="task-progress">
+                            <p><span className='font-medium text-gray-900 text-lg'>Tailwind</span>
+                                <span className='font-medium text-gray-900 text-lg'>90%</span>
+                            </p>
+                            <progress className="progress progress1" max="100" value="90"></progress>
+                        </div>
+                        <div className="task-progress">
+                            <p><span className='font-medium text-gray-900 text-lg'>Bootstrap</span>
+                                <span className='font-medium text-gray-900 text-lg'>65%</span>
+                            </p>
+                            <progress className="progress progress1" max="100" value="65"></progress>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
+
 };
 
 export default Skills;
