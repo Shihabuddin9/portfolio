@@ -1,0 +1,14 @@
+.hover-bg-s-color:hover {
+    background-color: #3E64FF;
+    opacity: 1;
+}
+
+.h-card-show {
+    display: none;
+
+}
+
+.h-card:hover .h-card-show {
+    display: block;
+
+}

@@ -1,0 +1,25 @@
+.hover-bg-color:hover {
+    background-color: #3E64FF;
+    opacity: 0.8;
+}
+
+.hover-bg-color:hover .h-text-white,
+.h-text-black {
+    color: white;
+}
+
+.letter-space {
+    letter-spacing: 1px;
+}
+
+.hover-bg-color:hover .letter-space {
+    color: black;
+}
+
+.h-text-black {
+    color: grey;
+}
+
+.hover-bg-color:hover .h-text-black {
+    color: black;
+}

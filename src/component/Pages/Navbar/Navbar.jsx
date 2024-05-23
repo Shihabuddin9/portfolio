@@ -8,8 +8,8 @@ const Navbar = () => {
         <li><a href="#home">Home</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#resume">Resume</a></li>
-        <li><NavLink to="/services">Services</NavLink></li>
-        <li><NavLink to="/projects">Projects</NavLink></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><NavLink to="/contact">Contact</NavLink></li>
     </>
 

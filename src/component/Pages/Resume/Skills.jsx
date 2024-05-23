@@ -10,7 +10,7 @@ const Skills = () => {
                     <div className='md:mt-10 mt-8 md:grid lg:grid-cols-3 md:grid-cols-2 gap-5'>
 
                         <div className='md:w-64 h-80 bg-base-100 shadow-custom rounded '>
-                            <h3 className='text-center pt-5 font-extrabold'>React js</h3>
+                            <h3 className='text-center pt-5 font-extrabold'>JavaScript</h3>
                             <div className="frame">
                                 <div>
                                     <div className="circle-big">
@@ -38,7 +38,7 @@ const Skills = () => {
                         </div>
 
                         <div className='md:w-64 h-80 bg-base-100 shadow-custom rounded my-5 md:my-0'>
-                            <h3 className='text-center pt-5 font-extrabold'>JavaScript</h3>
+                            <h3 className='text-center pt-5 font-extrabold'>React js</h3>
                             <div className="frame">
                                 <div>
                                     <div className="circle-big">

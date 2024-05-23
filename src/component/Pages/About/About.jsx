@@ -12,12 +12,12 @@ const About = () => {
                 </div>
 
                 <div className='md:w-1/2 mx-5 md:mx-0'>
-                    <div className='xl:mt-10 lg:mt-6 md:mt-3 mt-6  md:ml-12'>
-                        <h2 className='lg:text-3xl md:text-xl font-extrabold'>About Me</h2>
-                        <p className='lg:my-6 md:my-3 my-2 text-gray-500 lg:font-semibold md:font-medium md:text-sm lg:text-base'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <div className='xl:mt-5 md:mt-0 mt-2  md:ml-12'>
+                        <h2 className='lg:text-2xl md:text-xl font-extrabold'>About Me</h2>
+                        <p className='lg:my-3 my-2 text-gray-500 lg:font-semibold md:font-medium md:text-sm lg:text-base'>I specialize in crafting visually stunning and user-friendly websites that not only look great but also perform seamlessly. With a keen eye for design and a dedication to perfection, I transform ideas into digital experiences that leave a lasting impression.</p>
                         <div className='flex justify-start'>
                             <div>
-                                <ul className='lg:space-y-3 md:space-y-2 space-y-1 font-semibold'>
+                                <ul className='lg:space-y-3 space-y-1 font-semibold'>
                                     <li>Name:</li>
                                     <li className='md:block hidden'>Date of birth:</li>
                                     <li className='md:hidden block'>birth:</li>
@@ -28,20 +28,20 @@ const About = () => {
                                 </ul>
                             </div>
                             <div className='ml-7'>
-                                <ul className='lg:space-y-3 md:space-y-2 space-y-1 font-semibold text-gray-500'>
+                                <ul className='lg:space-y-3 space-y-1 font-semibold text-gray-500'>
                                     <li>Shihab Uddin</li>
                                     <li>September 30, 1998</li>
                                     <li>Mohakhali, Dhaka</li>
                                     <li>1212</li>
                                     <li>shihab.bd.pk@gmail.com</li>
-                                    <li>+880 17654-99588</li>
+                                    <li>+880 176549-9588</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="lg:mt-8 md:mt-3 my-3 md:my-0">
+                        <div className="lg:mt-5 md:mt-1 my-3 md:my-0">
                             <a
                                 href="!"
-                                className="button w-fit button--nina px-5 py-0 common-bg-color text-white relative block focus:outline-none border-2 border-solid rounded-full text-sm text-center font-semibold uppercase tracking-widest overflow-hidden"
+                                className="button w-fit button--nina lg:px-5 md:px-2 px-5 py-0 common-bg-color text-white relative block focus:outline-none border-2 border-solid rounded-full text-sm text-center font-semibold uppercase tracking-widest overflow-hidden"
                                 data-text="DOWNLOAD CV"
                             >
                                 <span className="align-middle">D</span>
