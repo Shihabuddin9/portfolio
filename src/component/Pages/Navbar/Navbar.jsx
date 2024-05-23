@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import './Navbar.css'
 import { useState } from "react";
 
@@ -10,7 +9,7 @@ const Navbar = () => {
         <li><a href="#resume">Resume</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><a href="#contact">Contact</a></li>
     </>
 
 
