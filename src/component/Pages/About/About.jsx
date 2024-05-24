@@ -39,8 +39,10 @@ const About = () => {
                             </div>
                         </div>
                         <div className="lg:mt-5 md:mt-1 my-3 md:my-0">
+
                             <a
-                                href="!"
+                                href='https://drive.google.com/file/d/114Fukg95VcSgOFBHFdHpKblm-m8XGYhN/view?usp=sharing'
+                                target="_blank" rel="noopener noreferrer"
                                 className="button w-fit button--nina lg:px-5 md:px-2 px-5 py-0 common-bg-color text-white relative block focus:outline-none border-2 border-solid rounded-full text-sm text-center font-semibold uppercase tracking-widest overflow-hidden"
                                 data-text="DOWNLOAD CV"
                             >

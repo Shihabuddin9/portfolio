@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div id="projects" className="xl:my-40 lg:my-36 md:my-32 my-24">
             <h1 className="text-center font-bold text-5xl">Our Projects</h1>
-            <p className="my-10 text-center text-gray-500 text-lg">Offering expert front-end development services: responsive design, intuitive interfaces, and seamless user experiences.</p>
+            <p className="my-10 text-center text-gray-500 text-lg">I created some websites to showcase my projects, skills, and experience as a web developer.</p>
             <div>
                 <div className=''>
                     <div className='md:grid lg:grid-cols-3 md:grid-cols-2'>

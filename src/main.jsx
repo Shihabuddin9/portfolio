@@ -4,6 +4,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './component/Pages/Home/Home.jsx';
 import Roots from './assets/routes/Roots.jsx';
+import 'react-toastify/dist/ReactToastify.css';
 
 const router = createBrowserRouter([
   {
