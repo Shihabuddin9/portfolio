@@ -18,6 +18,12 @@ const skillsData = [
         percentage: 85,
         lastWeek: 15,
         lastMonth: 70
+    },
+    {
+        name: 'Next JS',
+        percentage: 65,
+        lastWeek: 15,
+        lastMonth: 40
     }
 ];
 
@@ -25,7 +31,11 @@ const progressData = [
     { name: 'HTML5', value: 90 },
     { name: 'CSS3', value: 95 },
     { name: 'Tailwind', value: 90 },
-    { name: 'Bootstrap', value: 65 }
+    { name: 'Bootstrap', value: 65 },
+    { name: 'Redux', value: 65 },
+    { name: 'Flux', value: 60 },
+    { name: 'jest', value: 55 },
+    { name: 'Material ui', value: 60 }
 ];
 
 const SkillCard = ({ name, percentage, lastWeek, lastMonth }) => (
