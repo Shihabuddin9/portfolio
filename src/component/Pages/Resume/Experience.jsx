@@ -9,7 +9,7 @@ const Experience = () => {
                 <div className="ml-5">
                     <h3 className="common-text-color font-bold">2022 - 2023</h3>
                     <h2 className="font-bold text-xl">Led CRM initiatives as Head in an e-commerce firm.</h2>
-                    <p className="text-gray-400 mt-3">As the Head of CRM at an e-commerce company oneUmmahBD. I crafted strategies to delight customers. But I love coding and have honed my programming skills, though I&apos;m new to this field.</p>
+                    <p className="text-gray-800 mt-3 pr-2">Worked as head of CRM for e-commerce companies oneUmmahBD and Wafilife. I love working with team. And find joy in working with a team.</p>
                 </div>
             </div>
 

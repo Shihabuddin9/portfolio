@@ -2,13 +2,13 @@ import { Outlet } from "react-router-dom";
 import Footer from "../../component/Pages/Footer/Footer";
 import { ToastContainer } from 'react-toastify';
 
-
 const Roots = () => {
+
     return (
-        <div>
+        <div >
             <ToastContainer />
-            <Outlet></Outlet>
-            <Footer></Footer>
+            <Outlet />
+            <Footer />
         </div>
     );
 };

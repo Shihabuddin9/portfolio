@@ -3,7 +3,8 @@
 }
 
 .bg-color-second {
-    background-color: #FFFFFF;
+
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.36) 0%, rgba(28, 137, 210, 0.812) 53%, rgba(0, 213, 255, 0.475) 100%);
 }
 
 .letter-space {

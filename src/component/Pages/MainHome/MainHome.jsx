@@ -26,9 +26,9 @@ const MainHome = () => {
                         <h4 className='font-bold md:text-7xl text-5xl-custom name-letter-space md:my-3 my-4'>Shihab Uddin</h4>
                         <h5 className='font-bold md:text-2xl text-xl'>I&apos;m a <span className='common-text-color'>Font-end developer</span></h5>
 
-                        <div className="relative mt-3">
-                            <FaSquareFull className="fas fa-square-full text-7xl rotate-45 text-center inline-block mt-5 square-text-color z-0" />
-                            <FaArrowDownLong className="fas fa-arrow-down-long text-xl text-blue-500 absolute top-14 left-arrow transform -translate-x-1/2 animate-move-up-down z-10" />
+                        <div className="relative xl:mt-3 mt-2">
+                            <FaSquareFull className="fas fa-square-full xl:text-7xl text-5xl rotate-45 text-center inline-block mt-5 square-text-color z-0" />
+                            <FaArrowDownLong className="fas fa-arrow-down-long xl:text-xl text-sm text-blue-500 absolute top-14 left-arrow transform -translate-x-1/2 animate-move-up-down z-10 ml-1.5" />
                         </div>
                     </>
                 </div>
