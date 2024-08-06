@@ -24,7 +24,7 @@ const SendMessage = () => {
             <div className=' w-4/5'>
                 <div className='md:flex'>
                     <div className='hidden md:block'>
-                        <img className='bg-color w-full h-full' src={image} alt="" />
+                        <img className='bg-color w-full h-full bg-linear-gradient' src={image} alt="" />
                     </div>
                     <div className='bg-gray-100'>
                         <div className=" md:m-10 m-5 py-5 md:py-0">

@@ -7,8 +7,8 @@ const About = () => {
     return (
         <div id='about'>
             <div className='md:flex mt-20'>
-                <div className='md:w-1/2 w-full md:relative md:ml-5'>
-                    <img className='bg-color md:absolute xl:top-24 lg:top-36 md:top-44 right-0' src={image} alt="" />
+                <div className='md:w-1/2 w-full md:relative md:ml-5 p-5'>
+                    <img className='md:absolute xl:top-24 lg:top-28 md:top-24 right-0 bg-linear-gradient md:h-[500px] h-[450px] md:w-[400px] w-[380px]' src={image} alt="" />
                 </div>
 
                 <div className='md:w-1/2 mx-5 md:mx-0'>
