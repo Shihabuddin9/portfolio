@@ -24,7 +24,7 @@ const MainHome = () => {
                     <>
                         <h4 className='font-bold letter-space common-text-color'>HEY! I AM</h4>
                         <h4 className='font-bold md:text-7xl text-5xl-custom name-letter-space md:my-3 my-4'>Shihab Uddin</h4>
-                        <h5 className='font-bold md:text-2xl text-xl'>I&apos;m a <span className='common-text-color'>Font-end developer</span></h5>
+                        <h5 className='font-bold md:text-2xl text-xl'>I&apos;m a <span className='common-text-color'>Front-end developer</span></h5>
 
                         <div className="relative xl:mt-3 mt-2">
                             <FaSquareFull className="fas fa-square-full xl:text-7xl text-5xl rotate-45 text-center inline-block mt-5 square-text-color z-0" />

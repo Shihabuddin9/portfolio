@@ -3,7 +3,7 @@
 }
 
 .bg-linear-gradient {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.261) 0%, rgba(28, 137, 210, 0.27) 53%, rgba(0, 213, 255, 0.376) 100%);
+    background: linear-gradient(90deg, rgb(2 0 36 / 2%) 0%, rgb(28 137 210 / 13%) 53%, rgb(0 213 255 / 4%) 100%);
 }
 
 .letter-space {
