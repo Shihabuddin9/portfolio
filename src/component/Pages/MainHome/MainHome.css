@@ -1,11 +1,11 @@
-.bg-color-first {
+/* .bg-color-first {
     background-color: #EBEFFF;
 }
 
 .bg-color-second {
 
     background: linear-gradient(90deg, rgb(2 0 36 / 0%) 0%, rgb(28 137 210 / 0%) 53%, rgb(0 213 255 / 9%) 100%);
-}
+} */
 
 .letter-space {
     letter-spacing: 5px;
@@ -16,7 +16,7 @@
 }
 
 .square-text-color {
-    color: #EBEFFF;
+    color: #ffffff24;
 }
 
 

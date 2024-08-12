@@ -1,5 +1,6 @@
 import { toast } from 'react-toastify';
 import image from '../../../assets/shihab-img/shihab-img.png'
+import './SendMessage.css'
 
 const SendMessage = () => {
     const handleSubmit = (e) => {
@@ -26,7 +27,7 @@ const SendMessage = () => {
                     <div className='hidden md:block'>
                         <img className='bg-color w-full h-full bg-linear-gradient' src={image} alt="" />
                     </div>
-                    <div className='bg-gray-100'>
+                    <div className='bg-color'>
                         <div className=" md:m-10 m-5 py-5 md:py-0">
                             <form onSubmit={handleSubmit} className='space-y-5'>
                                 <input type="text" name='fullName' placeholder="Full Name" className="w-full mt-2 p-3 rounded focus:shadow-outline border " required />

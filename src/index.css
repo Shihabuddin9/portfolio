@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .common-text-color {
-    color: #3E64FF;
+    color: #3e64ffd6;
 }
 
 .common-bg-color {
-    background-color: #3E64FF;
+    background-color: #3e64ffd6;
 }
 
 
@@ -16,5 +16,5 @@ html {
 }
 
 body {
-    background: linear-gradient(90deg, rgb(2 0 36 / 0%) 0%, rgb(28 137 210 / 17%) 53%, rgb(0 213 255 / 4%) 100%);
+    background: linear-gradient(90deg, rgb(2 0 36 / 0%) 0%, rgb(28 137 210 / 17%) 53%, rgb(0 213 255 / 0%) 100%);
 }

@@ -17,9 +17,9 @@ const About = () => {
 
                         <p className='text-gray-900 md:text-sm lg:text-base '>Hi there! I’m Shihab, a passionate front-end developer with a keen interest in creating engaging and intuitive user experiences. After completing my Higher Secondary Certificate (HSC) education, I decided to pursue my fascination with technology and dive into the world of front-end development.</p>
 
-                        <p className='text-gray-700 md:text-sm lg:text-base my-2'>With a solid foundation in HTML, CSS, and JavaScript, I specialize in building responsive and dynamic web applications using modern frameworks like React and Next.js. My journey has involved working on diverse projects, from designing interactive UI components to optimizing performance and ensuring cross-browser compatibility.</p>
+                        <p className='text-gray-900 md:text-sm lg:text-base my-2'>With a solid foundation in HTML, CSS, and JavaScript, I specialize in building responsive and dynamic web applications using modern frameworks like React and Next.js. My journey has involved working on diverse projects, from designing interactive UI components to optimizing performance and ensuring cross-browser compatibility.</p>
 
-                        <p className='text-gray-600 md:text-sm lg:text-base mb-2'>I’m particularly excited about leveraging my skills to contribute to innovative and user-centric solutions. My goal is to continually improve my craft and stay updated with the latest industry trends and best practices. I’m driven by the challenge of turning complex problems into simple, elegant designs and am always eager to collaborate with others who share a passion for creating exceptional web experiences.</p>
+                        <p className='text-gray-900 md:text-sm lg:text-base mb-2'>I’m particularly excited about leveraging my skills to contribute to innovative and user-centric solutions. My goal is to continually improve my craft and stay updated with the latest industry trends and best practices. I’m driven by the challenge of turning complex problems into simple, elegant designs and am always eager to collaborate with others who share a passion for creating exceptional web experiences.</p>
 
                         <div className='flex justify-start'>
                             <div>

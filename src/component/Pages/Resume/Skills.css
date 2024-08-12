@@ -40,7 +40,7 @@
 .circle-big .progress {
     fill: none;
     stroke-width: 3px;
-    stroke: #3E64FF;
+    stroke: #3e64ffd4;
     stroke-linecap: round;
     stroke-dashoffset: 60;
     transform: rotate(-90deg);
@@ -111,5 +111,5 @@ span {
 }
 
 .progress1::-webkit-progress-value {
-    background: #185ee2;
+    background: #3e64ffd4;
 }
