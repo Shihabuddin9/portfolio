@@ -1,6 +1,7 @@
 import './Projects.css'
 import firstBuy from '../../../assets/projects-img/delicious-flying-humburger-fast-food_983969-71.jpg'
 import picVault from '../../../assets/projects-img/picVault.png'
+import worldExplore from '../../../assets/projects-img/Capture.png'
 
 const projects = [
 
@@ -10,36 +11,49 @@ const projects = [
         react: "Next JS",
         tailwind: 'Material UI',
         firebase: 'firebase',
+        nodejs: '- Node JS',
+        express: "Express,",
+        mongodb: 'MongoDB',
         image: picVault, // Update with the correct path to the image
         codeLink: "https://github.com/Shihabuddin9/firstBuy",
         liveSiteLink: "https://photo-client.vercel.app/",
-        alt: "Image gallery App"
+        alt: "Image gallery App",
+        mernStack: "true"
     },
     {
         title: "Food Delivery App",
         technology: "Technology use:",
         react: "React js",
         tailwind: 'Tailwind CSS',
-        firebase: 'firebase',
+        firebase: 'firebase,',
+        nodejs: null,
+        express: null,
+        mongodb: null,
         image: firstBuy, // Update with the correct path to the image
         codeLink: "https://github.com/Shihabuddin9/firstBuy",
         liveSiteLink: "https://firstbuy.netlify.app/",
-        alt: "firstBuy project img"
+        alt: "firstBuy project img",
+        mernStack: null
     },
     {
-        title: "Upcoming... Chat Board AI",
-        technology: null,
-        react: null,
-        tailwind: null,
-        firebase: null,
-        image: null, // Update with the correct path to the image
-        codeLink: null,
-        liveSiteLink: null,
-        alt: null,
+        title: "Upcoming... travel agency",
+        technology: "Technology use:",
+        react: "React js",
+        tailwind: 'Tailwind CSS',
+        firebase: 'firebase,',
+        nodejs: '- Node JS',
+        express: "Express,",
+        mongodb: 'MongoDB',
+        image: worldExplore, // Update with the correct path to the image
+        codeLink: "https://github.com/Shihabuddin9/world-explore",
+        liveSiteLink: "https://world-explore-zeta.vercel.app/",
+        alt: "firstBuy project img",
+        mernStack: null
     }
 ];
 
-const ProjectCard = ({ title, image, codeLink, liveSiteLink, alt, technology, react, tailwind, firebase }) => (
+const ProjectCard = ({ title, image, codeLink, liveSiteLink, alt, technology, react, tailwind, firebase, express, nodejs, mongodb, mernStack }) => (
+
     <div className='w-full h-80 bg-base-100 hover:bg-s-color text-center flex justify-center items-center relative h-card mb-5 md:mb-0'>
         {image ? (
             <img className='h-full w-full z-0' src={image} alt={alt} />
@@ -56,7 +70,12 @@ const ProjectCard = ({ title, image, codeLink, liveSiteLink, alt, technology, re
                         <div className='absolute bottom-0 text-start pl-3 bg-slate-500 w-full'>
                             <h1 className='font-bold text-xl text-white'>{technology}</h1>
                             <ul className='font-semibold text-md text-gray-100 '>
-                                <li className=''>- {react}, {tailwind}, {firebase}</li>
+                                <li>- {react}, {tailwind}, {firebase}</li>
+                                {!mernStack ? (
+                                    <li>{nodejs} {express} {mongodb}</li>
+                                )
+                                    :
+                                    ''}
                             </ul>
                         </div>
                         <div className='mt-5'>
@@ -99,6 +118,9 @@ const Projects = () => (
                     react={project.react}
                     tailwind={project.tailwind}
                     firebase={project.firebase}
+                    nodejs={project.nodejs}
+                    express={project.express}
+                    mongodb={project.mongodb}
                     image={project.image}
                     codeLink={project.codeLink}
                     liveSiteLink={project.liveSiteLink}
